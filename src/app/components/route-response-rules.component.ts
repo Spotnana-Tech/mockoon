@@ -25,11 +25,15 @@ export class RouteResponseRulesComponent implements OnInit, OnDestroy {
   private listenToChanges = true;
   private destroy$ = new Subject<void>();
 
+  public get ruleCount(): number {
+    return this.form.get('rules')['controls'].length;
+  }
+
   constructor(
     private environmentsService: EnvironmentsService,
     private formBuilder: FormBuilder,
     private changeDetectorRef: ChangeDetectorRef
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.form = this.formBuilder.group({
@@ -77,7 +81,12 @@ export class RouteResponseRulesComponent implements OnInit, OnDestroy {
     formRulesArray.clear();
 
     newRules.forEach((rule) => {
-      formRulesArray.push(this.formBuilder.group(<ResponseRule>{ ...rule }));
+      formRulesArray.push(
+        this.formBuilder.group(<ResponseRule>{
+          ...rule,
+          andRules: rule.andRules || false
+        })
+      );
     });
 
     this.changeDetectorRef.markForCheck();
@@ -94,7 +103,8 @@ export class RouteResponseRulesComponent implements OnInit, OnDestroy {
         target: null,
         modifier: null,
         value: null,
-        isRegex: false
+        isRegex: false,
+        andRules: false
       })
     );
 
