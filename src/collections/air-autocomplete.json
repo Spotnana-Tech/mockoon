@@ -1,0 +1,132 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "get",
+        "endpoint": "air-autocomplete",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": [\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Francisco\",\n        \"airportCode\": \"SFO\",\n        \"cityCode\": \"QSF\",\n        \"location\": {\n          \"name\": \"San Francisco\",\n          \"stateName\": \"California\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 37.618611,\n            \"longitude\": -122.373611\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Santiago\",\n        \"airportCode\": \"SCL\",\n        \"cityCode\": \"SCL\",\n        \"location\": {\n          \"name\": \"Santiago\",\n          \"stateName\": \"\",\n          \"countryName\": \"Chile\",\n          \"countryCode\": \"CL\",\n          \"latlong\": {\n            \"latitude\": -33.39,\n            \"longitude\": -70.785\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Diego\",\n        \"airportCode\": \"SAN\",\n        \"cityCode\": \"SAN\",\n        \"location\": {\n          \"name\": \"San Diego\",\n          \"stateName\": \"California\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 32.733333,\n            \"longitude\": -117.186667\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Antonio\",\n        \"airportCode\": \"SAT\",\n        \"cityCode\": \"SAT\",\n        \"location\": {\n          \"name\": \"San Antonio\",\n          \"stateName\": \"Texas\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 29.533333,\n            \"longitude\": -98.469444\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Jose\",\n        \"airportCode\": \"SJC\",\n        \"cityCode\": \"QSF\",\n        \"location\": {\n          \"name\": \"San Jose\",\n          \"stateName\": \"California\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 37.361389,\n            \"longitude\": -121.926944\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Orange Co/Snta Ana/Anaheim\",\n        \"airportCode\": \"SNA\",\n        \"cityCode\": \"QLA\",\n        \"location\": {\n          \"name\": \"Santa Ana\",\n          \"stateName\": \"California\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 33.675556,\n            \"longitude\": -117.867222\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Juan\",\n        \"airportCode\": \"SJU\",\n        \"cityCode\": \"SJU\",\n        \"location\": {\n          \"name\": \"San Juan\",\n          \"stateName\": \"\",\n          \"countryName\": \"Puerto Rico\",\n          \"countryCode\": \"PR\",\n          \"latlong\": {\n            \"latitude\": 18.441389,\n            \"longitude\": -66.002222\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Salvador\",\n        \"airportCode\": \"SAL\",\n        \"cityCode\": \"SAL\",\n        \"location\": {\n          \"name\": \"San Salvador\",\n          \"stateName\": \"\",\n          \"countryName\": \"El Salvador\",\n          \"countryCode\": \"SV\",\n          \"latlong\": {\n            \"latitude\": 13.44,\n            \"longitude\": -89.055833\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Jose\",\n        \"airportCode\": \"SJO\",\n        \"cityCode\": \"SJO\",\n        \"location\": {\n          \"name\": \"San Jose\",\n          \"stateName\": \"\",\n          \"countryName\": \"Costa Rica\",\n          \"countryCode\": \"CR\",\n          \"latlong\": {\n            \"latitude\": 9.998611,\n            \"longitude\": -84.195833\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Los Cabos\",\n        \"airportCode\": \"SJD\",\n        \"cityCode\": \"SJD\",\n        \"location\": {\n          \"name\": \"San Jose del Cabo\",\n          \"stateName\": \"\",\n          \"countryName\": \"Mexico\",\n          \"countryCode\": \"MX\",\n          \"latlong\": {\n            \"latitude\": 23.155278,\n            \"longitude\": -109.725\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Santos Dumont Apt\",\n        \"airportCode\": \"SDU\",\n        \"cityCode\": \"RIO\",\n        \"location\": {\n          \"name\": \"Rio De Janeiro\",\n          \"stateName\": \"Rio de Janeiro\",\n          \"countryName\": \"Brazil\",\n          \"countryCode\": \"BR\",\n          \"latlong\": {\n            \"latitude\": -22.91,\n            \"longitude\": -43.162778\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Santo Domingo\",\n        \"airportCode\": \"SDQ\",\n        \"cityCode\": \"SDQ\",\n        \"location\": {\n          \"name\": \"Santo Domingo\",\n          \"stateName\": \"\",\n          \"countryName\": \"Dominican Republic\",\n          \"countryCode\": \"DO\",\n          \"latlong\": {\n            \"latitude\": 18.4325,\n            \"longitude\": -69.670556\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Santiago De Compostella\",\n        \"airportCode\": \"SCQ\",\n        \"cityCode\": \"SCQ\",\n        \"location\": {\n          \"name\": \"Santiago De Compostela\",\n          \"stateName\": \"\",\n          \"countryName\": \"Spain\",\n          \"countryCode\": \"ES\",\n          \"latlong\": {\n            \"latitude\": 42.895833,\n            \"longitude\": -8.415556\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Angelo AB, Treviso\",\n        \"airportCode\": \"TSF\",\n        \"cityCode\": \"VCE\",\n        \"location\": {\n          \"name\": \"Venice\",\n          \"stateName\": \"\",\n          \"countryName\": \"Italy\",\n          \"countryCode\": \"IT\",\n          \"latlong\": {\n            \"latitude\": 45.647778,\n            \"longitude\": 12.194167\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Sanford\",\n        \"airportCode\": \"SFB\",\n        \"cityCode\": \"ORL\",\n        \"location\": {\n          \"name\": \"Orlando\",\n          \"stateName\": \"Florida\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 28.778611,\n            \"longitude\": -81.238056\n          }\n        }\n      }\n    }\n  ]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "SFO",
+                "isRegex": true
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": [{\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"J.F. Kennedy, NYC\",\n      \"airportCode\": \"JFK\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.64,\n          \"longitude\": -73.778056\n        }\n      }\n    }\n  }]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "JFK",
+                "isRegex": true
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": [{\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London Heathrow, England\",\n      \"airportCode\": \"LHR\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.469722,\n          \"longitude\": -0.452222\n        }\n      }\n    }\n  }]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "LHR",
+                "isRegex": true
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": [\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Newark Airport\",\n        \"airportCode\": \"EWR\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New Jersey\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.693056,\n            \"longitude\": -74.168611\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"J.F. Kennedy, NYC\",\n        \"airportCode\": \"JFK\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.64,\n            \"longitude\": -73.778056\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"New York City LaGuardia\",\n        \"airportCode\": \"LGA\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.777222,\n            \"longitude\": -73.873889\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"White Plains\",\n        \"airportCode\": \"HPN\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"Westchester County\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 41.066667,\n            \"longitude\": -73.707778\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"New York Metropolitan Area\",\n        \"airportCode\": \"NYC\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.720409,\n            \"longitude\": -73.994637\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Downtown Manhattan Hlpt NYC\",\n        \"airportCode\": \"JRB\",\n        \"cityCode\": \"JRB\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.704167,\n            \"longitude\": -74.000833\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"East 34th St. Apt., NYC\",\n        \"airportCode\": \"TSS\",\n        \"cityCode\": \"TSS\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.733333,\n            \"longitude\": -73.6\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Port Auth./W. 30th St. NYC\",\n        \"airportCode\": \"JRA\",\n        \"cityCode\": \"JRA\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.754444,\n            \"longitude\": -74.0075\n          }\n        }\n      }\n    }\n  ]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "NYC",
+                "isRegex": true
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "Invalid",
+                "isRegex": false
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

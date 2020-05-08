@@ -1,0 +1,49 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "post",
+        "endpoint": "pnr-search",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"pnrs\": [\n    {\n      \"pnr\": \"EAVBBJ\",\n      \"creationTime\": \"2020-02-20T03:22:00\",\n      \"status\": {\n        \"supplierCode\": \"\"\n      },\n      \"segments\": []\n    }\n  ]\n}",
+            "latency": 0,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "access-control-allow-headers",
+                "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+              },
+              {
+                "key": "access-control-allow-methods",
+                "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+              },
+              {
+                "key": "access-control-allow-origin",
+                "value": "*"
+              },
+              {
+                "key": "content-length",
+                "value": "2"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json; charset=utf-8"
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": []
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}
