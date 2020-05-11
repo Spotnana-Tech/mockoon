@@ -45,7 +45,38 @@
                 "modifier": "email",
                 "value": "sonal@spotnana.com",
                 "isRegex": false,
+                "andRules": true
+              },
+              {
+                "target": "body",
+                "modifier": "type",
+                "value": "2",
+                "isRegex": false,
                 "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"profiles\": [\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"314190612\",\n            \"profileName\": \"KHANNA/SONAL\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308801106\",\n            \"profileName\": \"KHANNA EINRIDE\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308800200\",\n            \"profileName\": \"KHANNA FALCON\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308799968\",\n            \"profileName\": \"KHANNA RIBBIT\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308793710\",\n            \"profileName\": \"KHANNA ICONIQ\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308792390\",\n            \"profileName\": \"KHANNA BARDIN\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    }\n  ]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "email",
+                "value": "sonal@wholdings.travel",
+                "isRegex": false,
+                "andRules": true
               },
               {
                 "target": "body",
@@ -75,37 +106,6 @@
                 "target": "body",
                 "modifier": "email",
                 "value": "sarosh@spotnana.com",
-                "isRegex": false,
-                "andRules": false
-              },
-              {
-                "target": "body",
-                "modifier": "type",
-                "value": "2",
-                "isRegex": false,
-                "andRules": false
-              }
-            ]
-          },
-          {
-            "uuid": "",
-            "body": "{\n  \"profiles\": [\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"314190612\",\n            \"profileName\": \"KHANNA/SONAL\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308801106\",\n            \"profileName\": \"KHANNA EINRIDE\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308800200\",\n            \"profileName\": \"KHANNA FALCON\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308799968\",\n            \"profileName\": \"KHANNA RIBBIT\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308793710\",\n            \"profileName\": \"KHANNA ICONIQ\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    },\n    {\n      \"type\": \"PROFILE_EMPLOYEE\",\n      \"employee\": {\n        \"id\": {\n          \"id\": \"0\",\n          \"type\": \"ID_SABRE\",\n          \"sabre\": {\n            \"profileId\": \"308792390\",\n            \"profileName\": \"KHANNA BARDIN\"\n          }\n        },\n        \"personal\": {\n          \"name\": {\n            \"first\": \"SONAL\",\n            \"middle\": \"\",\n            \"last\": \"KHANNA\"\n          },\n          \"email\": {\n            \"emailId\": [\n              \"SONAL@WHOLDINGS.TRAVEL\"\n            ]\n          },\n          \"gender\": \"UNKNOWN\",\n          \"dob\": {\n            \"year\": 1971,\n            \"month\": 7,\n            \"day\": 10\n          },\n          \"address\": {\n            \"revision\": 0,\n            \"regionCode\": \"\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"\",\n            \"locality\": \"\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"NARIMAN POINT\",\n              \"MUMBAI\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          \"phoneNumbers\": [],\n          \"travelDocs\": [],\n          \"paymentInfo\": [],\n          \"loyaltyInfos\": []\n        }\n      }\n    }\n  ]\n}",
-            "latency": 50,
-            "statusCode": "200",
-            "label": "Success",
-            "headers": [
-              {
-                "key": "",
-                "value": ""
-              }
-            ],
-            "filePath": "",
-            "sendFileAsBody": false,
-            "rules": [
-              {
-                "target": "body",
-                "modifier": "email",
-                "value": "sonal@wholdings.travel",
                 "isRegex": false,
                 "andRules": true
               },
@@ -174,7 +174,7 @@
               {
                 "target": "body",
                 "modifier": "name.middle",
-                "value": "r",
+                "value": "tr",
                 "isRegex": false,
                 "andRules": false
               },
@@ -182,13 +182,6 @@
                 "target": "body",
                 "modifier": "name.last",
                 "value": "khanna",
-                "isRegex": false,
-                "andRules": false
-              },
-              {
-                "target": "body",
-                "modifier": "type",
-                "value": "1",
                 "isRegex": false,
                 "andRules": false
               }
@@ -229,13 +222,6 @@
                 "value": "waghmar",
                 "isRegex": false,
                 "andRules": false
-              },
-              {
-                "target": "body",
-                "modifier": "type",
-                "value": "1",
-                "isRegex": false,
-                "andRules": false
               }
             ]
           },
@@ -272,13 +258,6 @@
                 "target": "body",
                 "modifier": "name.last",
                 "value": "test_lname",
-                "isRegex": false,
-                "andRules": false
-              },
-              {
-                "target": "body",
-                "modifier": "type",
-                "value": "1",
                 "isRegex": false,
                 "andRules": false
               }
