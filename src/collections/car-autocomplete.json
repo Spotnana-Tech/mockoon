@@ -1,0 +1,127 @@
+{
+    "source": "mockoon:1.8.0",
+    "data": [
+        {
+            "type": "route",
+            "item": {
+                "uuid": "",
+                "documentation": "",
+                "method": "get",
+                "endpoint": "car-autocomplete",
+                "responses": [
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"entry\": [\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Newark Airport\",\n        \"airportCode\": \"EWR\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New Jersey\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.693056,\n            \"longitude\": -74.168611\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"J.F. Kennedy, NYC\",\n        \"airportCode\": \"JFK\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.64,\n            \"longitude\": -73.778056\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"New York City LaGuardia\",\n        \"airportCode\": \"LGA\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.777222,\n            \"longitude\": -73.873889\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"White Plains\",\n        \"airportCode\": \"HPN\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"Westchester County\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 41.066667,\n            \"longitude\": -73.707778\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"New York Metropolitan Area\",\n        \"airportCode\": \"NYC\",\n        \"cityCode\": \"NYC\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.720409,\n            \"longitude\": -73.994637\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Downtown Manhattan Hlpt NYC\",\n        \"airportCode\": \"JRB\",\n        \"cityCode\": \"JRB\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.704167,\n            \"longitude\": -74.000833\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"East 34th St. Apt., NYC\",\n        \"airportCode\": \"TSS\",\n        \"cityCode\": \"TSS\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.733333,\n            \"longitude\": -73.6\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"Port Auth./W. 30th St. NYC\",\n        \"airportCode\": \"JRA\",\n        \"cityCode\": \"JRA\",\n        \"location\": {\n          \"name\": \"New York\",\n          \"stateName\": \"New York\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 40.754444,\n            \"longitude\": -74.0075\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Ничипорівка\",\n        \"stateName\": \"Київська область\",\n        \"countryName\": \"Ukraine\",\n        \"countryCode\": \"UA\",\n        \"latlong\": {\n          \"latitude\": 50.19688,\n          \"longitude\": 31.80885\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Nýčovy domky\",\n        \"stateName\": \"Severovýchod\",\n        \"countryName\": \"Czech Republic\",\n        \"countryCode\": \"CZ\",\n        \"latlong\": {\n          \"latitude\": 50.784241,\n          \"longitude\": 15.33327\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Nyckelby\",\n        \"stateName\": \"Dalarna\",\n        \"countryName\": \"Sweden\",\n        \"countryCode\": \"SE\",\n        \"latlong\": {\n          \"latitude\": 60.475337,\n          \"longitude\": 15.489767\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Lilla Nyckelviken\",\n        \"stateName\": \"Stockholms län\",\n        \"countryName\": \"Sweden\",\n        \"countryCode\": \"SE\",\n        \"latlong\": {\n          \"latitude\": 59.322406,\n          \"longitude\": 18.179887\n        }\n      }\n    }\n  ]\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "query",
+                                "value": "NYC",
+                                "isRegex": true
+                            }
+                        ]
+                    },
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"entry\": [\n    {\n      \"type\": \"AIRPORT\",\n      \"airport\": {\n        \"airportName\": \"San Francisco\",\n        \"airportCode\": \"SFO\",\n        \"cityCode\": \"QSF\",\n        \"location\": {\n          \"name\": \"San Francisco\",\n          \"stateName\": \"California\",\n          \"countryName\": \"United States Of America\",\n          \"countryCode\": \"US\",\n          \"latlong\": {\n            \"latitude\": 37.618611,\n            \"longitude\": -122.373611\n          }\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sfodea\",\n        \"stateName\": \"\",\n        \"countryName\": \"Romania\",\n        \"countryCode\": \"RO\",\n        \"latlong\": {\n          \"latitude\": 44.859155,\n          \"longitude\": 22.605043\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sfoartea\",\n        \"stateName\": \"\",\n        \"countryName\": \"Romania\",\n        \"countryCode\": \"RO\",\n        \"latlong\": {\n          \"latitude\": 46.524566,\n          \"longitude\": 22.846\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sforzacosta\",\n        \"stateName\": \"\",\n        \"countryName\": \"Italy\",\n        \"countryCode\": \"IT\",\n        \"latlong\": {\n          \"latitude\": 43.25605,\n          \"longitude\": 13.417824\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sfogliata\",\n        \"stateName\": \"\",\n        \"countryName\": \"Italy\",\n        \"countryCode\": \"IT\",\n        \"latlong\": {\n          \"latitude\": 45.012146,\n          \"longitude\": 9.190304\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sforzesca\",\n        \"stateName\": \"\",\n        \"countryName\": \"Italy\",\n        \"countryCode\": \"IT\",\n        \"latlong\": {\n          \"latitude\": 45.289221,\n          \"longitude\": 8.886708\n        }\n      }\n    },\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Sforzin\",\n        \"stateName\": \"\",\n        \"countryName\": \"Italy\",\n        \"countryCode\": \"IT\",\n        \"latlong\": {\n          \"latitude\": 45.708239,\n          \"longitude\": 12.557113\n        }\n      }\n    }\n  ]\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "query",
+                                "value": "SFO",
+                                "isRegex": true
+                            }
+                        ]
+                    },
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"entry\": []\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "query",
+                                "value": "Invalid",
+                                "isRegex": true
+                            }
+                        ]
+                    },
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"entry\": [\n    {\n      \"type\": \"LOCATION\",\n      \"location\": {\n        \"name\": \"Marriott Hill\",\n        \"stateName\": \"Maryland\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 38.875392,\n          \"longitude\": -76.608296\n        }\n      }\n    }\n  ]\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "query",
+                                "value": "Marriott Hill",
+                                "isRegex": true
+                            }
+                        ]
+                    },
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"entry\": [{\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London Heathrow, England\",\n      \"airportCode\": \"LHR\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.469722,\n          \"longitude\": -0.452222\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London Gatwick, England\",\n      \"airportCode\": \"LGW\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.152778,\n          \"longitude\": -0.19\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Stansted, England\",\n      \"airportCode\": \"STN\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.882778,\n          \"longitude\": 0.233889\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London City\",\n      \"airportCode\": \"LCY\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.504722,\n          \"longitude\": 0.054722\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Luton, England\",\n      \"airportCode\": \"LTN\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.876111,\n          \"longitude\": -0.368056\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London Paddington\",\n      \"airportCode\": \"QQP\",\n      \"cityCode\": \"QQP\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.51561,\n          \"longitude\": -0.175595\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Long Island MacArthur\",\n      \"airportCode\": \"ISP\",\n      \"cityCode\": \"ISP\",\n      \"location\": {\n        \"name\": \"Islip\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.795278,\n          \"longitude\": -73.1\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Saint Pancras Int\\u0027l Rail Station\",\n      \"airportCode\": \"QQS\",\n      \"cityCode\": \"QQS\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"EN\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.530833,\n          \"longitude\": -0.125833\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"East London\",\n      \"airportCode\": \"ELS\",\n      \"cityCode\": \"ELS\",\n      \"location\": {\n        \"name\": \"East London\",\n        \"stateName\": \"\",\n        \"countryName\": \"South Africa\",\n        \"countryCode\": \"ZA\",\n        \"latlong\": {\n          \"latitude\": -33.034722,\n          \"longitude\": 27.822222\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Ebbsfleet Int\\u0027l Rail Station\",\n      \"airportCode\": \"XQE\",\n      \"cityCode\": \"XQE\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"EN\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.426667,\n          \"longitude\": 0.321111\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Long Beach\",\n      \"airportCode\": \"LGB\",\n      \"cityCode\": \"LGB\",\n      \"location\": {\n        \"name\": \"Long Beach\",\n        \"stateName\": \"California\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 33.8175,\n          \"longitude\": -118.150556\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Londonderry\",\n      \"airportCode\": \"LDY\",\n      \"cityCode\": \"LDY\",\n      \"location\": {\n        \"name\": \"Derry\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 55.033333,\n          \"longitude\": -7.15\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Longyearbyen\",\n      \"airportCode\": \"LYR\",\n      \"cityCode\": \"LYR\",\n      \"location\": {\n        \"name\": \"Longyearbyen\",\n        \"stateName\": \"\",\n        \"countryName\": \"Norway\",\n        \"countryCode\": \"NO\",\n        \"latlong\": {\n          \"latitude\": 78.245278,\n          \"longitude\": 15.469444\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"Southend-on-Sea, England\",\n      \"airportCode\": \"SEN\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.570833,\n          \"longitude\": 0.7\n        }\n      }\n    }\n  }, {\n    \"type\": \"AIRPORT\",\n    \"airport\": {\n      \"airportName\": \"London, Ontario\",\n      \"airportCode\": \"YXU\",\n      \"cityCode\": \"YXU\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"Ontario\",\n        \"countryName\": \"Canada\",\n        \"countryCode\": \"CA\",\n        \"latlong\": {\n          \"latitude\": 43.035556,\n          \"longitude\": -81.153889\n        }\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"London\",\n      \"stateName\": \"\",\n      \"countryName\": \"United Kingdom\",\n      \"countryCode\": \"GB\",\n      \"latlong\": {\n        \"latitude\": 51.507322,\n        \"longitude\": -0.127647\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Londrina\",\n      \"stateName\": \"Paraná\",\n      \"countryName\": \"Brazil\",\n      \"countryCode\": \"BR\",\n      \"latlong\": {\n        \"latitude\": -23.311288,\n        \"longitude\": -51.159502\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Long Beach\",\n      \"stateName\": \"California\",\n      \"countryName\": \"United States Of America\",\n      \"countryCode\": \"US\",\n      \"latlong\": {\n        \"latitude\": 33.777466,\n        \"longitude\": -118.188487\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Longueuil\",\n      \"stateName\": \"Quebec\",\n      \"countryName\": \"Canada\",\n      \"countryCode\": \"CA\",\n      \"latlong\": {\n        \"latitude\": 45.537113,\n        \"longitude\": -73.448879\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Cao Lãnh\",\n      \"stateName\": \"Đồng bằng sông Cửu Long\",\n      \"countryName\": \"Vietnam\",\n      \"countryCode\": \"VN\",\n      \"latlong\": {\n        \"latitude\": 10.462033,\n        \"longitude\": 105.635792\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Londonderry/Derry\",\n      \"stateName\": \"Northern Ireland\",\n      \"countryName\": \"United Kingdom\",\n      \"countryCode\": \"GB\",\n      \"latlong\": {\n        \"latitude\": 54.994296,\n        \"longitude\": -7.319208\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Longyearbyen\",\n      \"stateName\": \"\",\n      \"countryName\": \"Norway\",\n      \"countryCode\": \"NO\",\n      \"latlong\": {\n        \"latitude\": 78.2198,\n        \"longitude\": 15.634919\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"London\",\n      \"stateName\": \"Kentucky\",\n      \"countryName\": \"United States Of America\",\n      \"countryCode\": \"US\",\n      \"latlong\": {\n        \"latitude\": 37.128977,\n        \"longitude\": -84.083265\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"London\",\n      \"stateName\": \"Ontario\",\n      \"countryName\": \"Canada\",\n      \"countryCode\": \"CA\",\n      \"latlong\": {\n        \"latitude\": 42.988097,\n        \"longitude\": -81.24603\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"龙口市\",\n      \"stateName\": \"山东\",\n      \"countryName\": \"China\",\n      \"countryCode\": \"CN\",\n      \"latlong\": {\n        \"latitude\": 37.644391,\n        \"longitude\": 120.521995\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"龙海市\",\n      \"stateName\": \"福建省 / Fujian\",\n      \"countryName\": \"China\",\n      \"countryCode\": \"CN\",\n      \"latlong\": {\n        \"latitude\": 24.450162,\n        \"longitude\": 117.810782\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"龙岩市\",\n      \"stateName\": \"福建省 / Fujian\",\n      \"countryName\": \"China\",\n      \"countryCode\": \"CN\",\n      \"latlong\": {\n        \"latitude\": 25.098217,\n        \"longitude\": 117.030662\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"龙泉市\",\n      \"stateName\": \"浙江省\",\n      \"countryName\": \"China\",\n      \"countryCode\": \"CN\",\n      \"latlong\": {\n        \"latitude\": 28.075188,\n        \"longitude\": 119.121894\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"陇南市\",\n      \"stateName\": \"甘肅\",\n      \"countryName\": \"China\",\n      \"countryCode\": \"CN\",\n      \"latlong\": {\n        \"latitude\": 33.387124,\n        \"longitude\": 104.931372\n      }\n    }\n  }, {\n    \"type\": \"LOCATION\",\n    \"location\": {\n      \"name\": \"Long Xuyên\",\n      \"stateName\": \"Đồng bằng sông Cửu Long\",\n      \"countryName\": \"Vietnam\",\n      \"countryCode\": \"VN\",\n      \"latlong\": {\n        \"latitude\": 10.390544,\n        \"longitude\": 105.433752\n      }\n    }\n  }]\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "query",
+                                "value": "LON",
+                                "isRegex": true
+                            }
+                        ]
+                    }
+                ],
+                "enabled": true
+            }
+        }
+    ]
+}
