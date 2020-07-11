@@ -1,0 +1,41 @@
+{
+    "source": "mockoon:1.8.0",
+    "data": [
+        {
+            "type": "route",
+            "item": {
+                "uuid": "",
+                "documentation": "",
+                "method": "get",
+                "endpoint": "stage",
+                "responses": [
+                    {
+                        "uuid": "",
+                        "body": "[]",
+                        "latency": 0,
+                        "statusCode": "200",
+                        "label": "",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "query",
+                                "modifier": "udid",
+                                "value": "279243178",
+                                "isRegex": false,
+                                "andRules": false
+                            }
+                        ]
+                    }
+                ],
+                "enabled": true
+            }
+        }
+    ]
+}
