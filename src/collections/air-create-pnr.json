@@ -1,0 +1,88 @@
+{
+    "source": "mockoon:1.8.0",
+    "data": [
+        {
+            "type": "route",
+            "item": {
+                "uuid": "",
+                "documentation": "",
+                "method": "post",
+                "endpoint": "stage/air-create-pnr",
+                "responses": [
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"pnrNumber\": \"WPVNCY\"\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "Access-Control-Allow-Headers",
+                                "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Methods",
+                                "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json; charset=utf-8"
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": [
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].departure",
+                                "value": "SFO",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].arrival",
+                                "value": "JFK",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].operating.airline",
+                                "value": "AA",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].operating.num",
+                                "value": "166",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].marketing.airline",
+                                "value": "AA",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].marketing.airline",
+                                "value": "166",
+                                "isRegex": false
+                            },
+                            {
+                                "target": "body",
+                                "modifier": "legs[0].flights[0].bookingCode",
+                                "value": "N",
+                                "isRegex": false
+                            }
+                        ]
+                    }
+                ],
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "source": "mockoon:1.8.0",
+    "data": [
+        {
+            "type": "route",
+            "item": {
+                "uuid": "",
+                "documentation": "",
+                "method": "post",
+                "endpoint": "stage/air-revalidate-itin",
+                "responses": [
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"fareAmount\": {\n    \"totalFare\": {\n      \"currencyCode\": \"USD\",\n      \"units\": \"176\",\n      \"nanos\": 910000000\n    }\n  }\n}",
+                        "latency": 50,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "Access-Control-Allow-Headers",
+                                "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Methods",
+                                "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json; charset=utf-8"
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": []
+                    }
+                ],
+                "enabled": true
+            }
+        }
+    ]
+}

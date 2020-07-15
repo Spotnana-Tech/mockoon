@@ -11,14 +11,26 @@
                 "responses": [
                     {
                         "uuid": "",
-                        "body": "[]",
+                        "body": "[\n  {\n    \"udid\": \"S*UD205\",\n    \"description\": \"Please choose the purpose of your trip\",\n    \"values\": [\n      \"INTERNAL\",\n      \"EXTERNAL\",\n      \"CANDIDATE\"\n    ]\n  }\n]",
                         "latency": 0,
                         "statusCode": "200",
                         "label": "",
                         "headers": [
                             {
-                                "key": "",
-                                "value": ""
+                                "key": "Access-Control-Allow-Headers",
+                                "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Methods",
+                                "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json; charset=utf-8"
                             }
                         ],
                         "filePath": "",
@@ -27,7 +39,7 @@
                             {
                                 "target": "query",
                                 "modifier": "udid",
-                                "value": "279243178",
+                                "value": "294284376",
                                 "isRegex": false,
                                 "andRules": false
                             }
