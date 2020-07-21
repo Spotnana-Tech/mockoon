@@ -1,0 +1,156 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "get",
+        "endpoint": "v1/air-autocomplete",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"San Francisco\",\n      \"airportCode\": \"SFO\",\n      \"cityCode\": \"SFO\",\n      \"location\": {\n        \"name\": \"San Francisco\",\n        \"stateName\": \"California\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 37.618611,\n          \"longitude\": -122.373611\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "SFO",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"J.F. Kennedy, NYC\",\n      \"airportCode\": \"JFK\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.64,\n          \"longitude\": -73.778056\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "JFK",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"London Heathrow, England\",\n      \"airportCode\": \"LHR\",\n      \"cityCode\": \"LON\",\n      \"location\": {\n        \"name\": \"London\",\n        \"stateName\": \"\",\n        \"countryName\": \"United Kingdom\",\n        \"countryCode\": \"GB\",\n        \"latlong\": {\n          \"latitude\": 51.469722,\n          \"longitude\": -0.452222\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "LHR",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"Newark Airport\",\n      \"airportCode\": \"EWR\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New Jersey\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.693056,\n          \"longitude\": -74.168611\n        }\n      }\n    },\n    {\n      \"airportName\": \"J.F. Kennedy, NYC\",\n      \"airportCode\": \"JFK\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.64,\n          \"longitude\": -73.778056\n        }\n      }\n    },\n    {\n      \"airportName\": \"New York City LaGuardia\",\n      \"airportCode\": \"LGA\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.777222,\n          \"longitude\": -73.873889\n        }\n      }\n    },\n    {\n      \"airportName\": \"White Plains\",\n      \"airportCode\": \"HPN\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"Westchester County\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 41.066667,\n          \"longitude\": -73.707778\n        }\n      }\n    },\n    {\n      \"airportName\": \"New York Metropolitan Area\",\n      \"airportCode\": \"NYC\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.720409,\n          \"longitude\": -73.994637\n        }\n      }\n    },\n    {\n      \"airportName\": \"Downtown Manhattan Hlpt NYC\",\n      \"airportCode\": \"JRB\",\n      \"cityCode\": \"JRB\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.704167,\n          \"longitude\": -74.000833\n        }\n      }\n    },\n    {\n      \"airportName\": \"East 34th St. Apt., NYC\",\n      \"airportCode\": \"TSS\",\n      \"cityCode\": \"TSS\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.733333,\n          \"longitude\": -73.6\n        }\n      }\n    },\n    {\n      \"airportName\": \"Port Auth./W. 30th St. NYC\",\n      \"airportCode\": \"JRA\",\n      \"cityCode\": \"JRA\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.754444,\n          \"longitude\": -74.0075\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "NYC",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"Newark Airport\",\n      \"airportCode\": \"EWR\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New Jersey\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.693056,\n          \"longitude\": -74.168611\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "EWR",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "Invalid",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

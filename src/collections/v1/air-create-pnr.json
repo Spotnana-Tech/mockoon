@@ -1,0 +1,53 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "post",
+        "endpoint": "v1/air-create-pnr",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"pnrNumber\": \"WPVNCY\"\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "Access-Control-Allow-Headers",
+                "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+              },
+              {
+                "key": "Access-Control-Allow-Methods",
+                "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+              },
+              {
+                "key": "Access-Control-Allow-Origin",
+                "value": "*"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json; charset=utf-8"
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "searchId",
+                "value": "32e7b449126e5acd",
+                "isRegex": false,
+                "andRules": true
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

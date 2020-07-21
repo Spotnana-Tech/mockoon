@@ -7,39 +7,43 @@
         "uuid": "",
         "documentation": "",
         "method": "post",
-        "endpoint": "pnr-search",
+        "endpoint": "v1/air-revalidate-itin",
         "responses": [
           {
             "uuid": "",
-            "body": "{\n  \"pnrs\": [\n    {\n      \"pnr\": \"EAVBBJ\",\n      \"creationTime\": \"2020-02-20T03:22:00\",\n      \"status\": {\n        \"supplierCode\": \"\"\n      },\n      \"segments\": []\n    }\n  ]\n}",
-            "latency": 0,
+            "body": "{\n  \"totalFare\": {\n    \"currencyCode\": \"USD\",\n    \"amount\": 148.1\n  }\n}",
+            "latency": 50,
             "statusCode": "200",
             "label": "Success",
             "headers": [
               {
-                "key": "access-control-allow-headers",
+                "key": "Access-Control-Allow-Headers",
                 "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
               },
               {
-                "key": "access-control-allow-methods",
+                "key": "Access-Control-Allow-Methods",
                 "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
               },
               {
-                "key": "access-control-allow-origin",
+                "key": "Access-Control-Allow-Origin",
                 "value": "*"
               },
               {
-                "key": "content-length",
-                "value": "2"
-              },
-              {
-                "key": "content-type",
+                "key": "Content-Type",
                 "value": "application/json; charset=utf-8"
               }
             ],
             "filePath": "",
             "sendFileAsBody": false,
-            "rules": []
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "searchId",
+                "value": "32e7b449126e5acd",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
           }
         ],
         "enabled": true

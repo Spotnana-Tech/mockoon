@@ -1,0 +1,117 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "post",
+        "endpoint": "v1/traveler/fetch",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"travelers\": [\n    {\n      \"user\": {\n        \"id\": {\n          \"id\": \"c0aade56-af44-46d7-b949-617671e136eb\"\n        },\n        \"email\": \"vel@Sedidrisus.ca\",\n        \"status\": 0,\n        \"name\": {\n          \"given\": \"Tatum\",\n          \"middle\": \"\",\n          \"family1\": \"Rhiannon\",\n          \"family2\": \"Rhiannon\"\n        },\n        \"prefName\": \"Tatum\",\n        \"gender\": 2,\n        \"dob\": {\n          \"iso8601\": \"1857-03-08\"\n        },\n        \"addresses\": [\n          {\n            \"revision\": 0,\n            \"regionCode\": \"United States\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"10007\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"NY\",\n            \"locality\": \"New York\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"285 Fulton St\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          },\n          {\n            \"revision\": 0,\n            \"regionCode\": \"United Kingdom\",\n            \"languageCode\": \"\",\n            \"postalCode\": \"SW1A 2AA\",\n            \"sortingCode\": \"\",\n            \"administrativeArea\": \"Westminster\",\n            \"locality\": \"London\",\n            \"sublocality\": \"\",\n            \"addressLines\": [\n              \"10 Downing St\"\n            ],\n            \"recipients\": [],\n            \"organization\": \"\"\n          }\n        ],\n        \"phoneNumbers\": [\n          {\n            \"type\": 0,\n            \"countryCode\": 0,\n            \"nationalNumber\": \"0\",\n            \"extension\": \"\",\n            \"italianLeadingZero\": false,\n            \"numberOfLeadingZeros\": 0,\n            \"rawInput\": \"07625-118898\",\n            \"countryCodeSource\": 0,\n            \"preferredDomesticCarrierCode\": \"\"\n          },\n          {\n            \"type\": 0,\n            \"countryCode\": 0,\n            \"nationalNumber\": \"0\",\n            \"extension\": \"\",\n            \"italianLeadingZero\": false,\n            \"numberOfLeadingZeros\": 0,\n            \"rawInput\": \"07625-118898\",\n            \"countryCodeSource\": 0,\n            \"preferredDomesticCarrierCode\": \"\"\n          }\n        ],\n        \"identityDocs\": [\n          {\n            \"passport\": {\n              \"type\": 1,\n              \"docId\": \"A696858\",\n              \"issuedDate\": {\n                \"iso8601\": \"1891-12-07\"\n              },\n              \"expiryDate\": {\n                \"iso8601\": \"2027-12-11\"\n              },\n              \"issueCountry\": \"CN\",\n              \"nationalityCountry\": \"CH\"\n            }\n          },\n          {\n            \"immigrationDoc\": {\n              \"type\": 1,\n              \"docId\": \"05784396\",\n              \"issuedDate\": {\n                \"iso8601\": \"1970-11-03\"\n              },\n              \"expiryDate\": {\n                \"iso8601\": \"2025-07-17\"\n              },\n              \"issueCountry\": \"RU\",\n              \"nationalityCountry\": \"US\",\n              \"authorizedStayDuration\": {\n                \"iso8601\": \"P9Y11M13DT3H8M43S\"\n              },\n              \"reentryRequirementDuration\": {\n                \"iso8601\": \"P18Y13M13DT10H39M57S\"\n              }\n            }\n          },\n          {\n            \"redressNumber\": \"ANP82557\"\n          },\n          {\n            \"knownTravelerNumber\": \"40903898\"\n          }\n        ],\n        \"paymentInfos\": [\n          {\n            \"id\": \"3325\",\n            \"card\": {\n              \"type\": 0,\n              \"company\": 3,\n              \"name\": {\n                \"given\": \"Tatum\",\n                \"middle\": \"\",\n                \"family1\": \"Rhiannon\",\n                \"family2\": \"\"\n              },\n              \"address\": {\n                \"revision\": 0,\n                \"regionCode\": \"Sweden\",\n                \"languageCode\": \"\",\n                \"postalCode\": \"114 28\",\n                \"sortingCode\": \"\",\n                \"administrativeArea\": \"Stockholm\",\n                \"locality\": \"Stockholm\",\n                \"sublocality\": \"\",\n                \"addressLines\": [\n                  \"KTH Royal Institute of Technology\"\n                ],\n                \"recipients\": [],\n                \"organization\": \"\"\n              },\n              \"number\": \"342445607519877\",\n              \"cvv\": \"123\",\n              \"expiryMonth\": 9,\n              \"expiryYear\": 2042\n            }\n          }\n        ]\n      },\n      \"userBusinessInfo\": {\n        \"email\": \"vel-Tatum897@iconiq.com\",\n        \"homeOrgId\": {\n          \"id\": \"98c25d66-349f-4ef8-be49-f0c7f5e031d7\"\n        },\n        \"homeLocation\": \"NEW YORK\",\n        \"managerId\": {\n          \"id\": \"b75dd710-f10a-437e-aff1-a98046ac8014\"\n        },\n        \"costCenter\": \"14004 Customer Service\",\n        \"workerTypeCode\": \"INTERN\",\n        \"assignmentTermCode\": \"Fulltime\",\n        \"workLevelCode\": \"Permanent\",\n        \"positionTitle\": \"24-7 Jamaica Agent\",\n        \"approvalHierarchy\": [\n          {\n            \"positionKey\": \"Approval Manager\",\n            \"userId\": {\n              \"id\": \"b75dd710-f10a-437e-aff1-a98046ac8014\"\n            }\n          }\n        ],\n        \"phoneNumber\": [\n          {\n            \"type\": 0,\n            \"countryCode\": 0,\n            \"nationalNumber\": \"0\",\n            \"extension\": \"\",\n            \"italianLeadingZero\": false,\n            \"numberOfLeadingZeros\": 0,\n            \"rawInput\": \"(01014) 827939\",\n            \"countryCodeSource\": 0,\n            \"preferredDomesticCarrierCode\": \"\"\n          }\n        ],\n        \"employeeId\": {\n          \"id\": \"f74a7151-3ce4-497b-b44f-594d6b2fc9b4\"\n        },\n        \"department\": \"Engineering\",\n        \"id\": [\n          {\n            \"source\": 1,\n            \"id\": \"210288376\"\n          }\n        ]\n      },\n      \"travelerPersonalInfo\": {\n        \"paymentPrefs\": [\n          {\n            \"paymentId\": \"3325\",\n            \"applicableTo\": 1\n          }\n        ],\n        \"loyaltyInfos\": [],\n        \"travelPref\": {\n          \"airPref\": {\n            \"homeAirport\": \"SFO\",\n            \"airlinePrefs\": [\n              {\n                \"flightType\": 2,\n                \"alliance\": 2,\n                \"airlines\": [\n                  \"B6\"\n                ]\n              }\n            ],\n            \"farePref\": {\n              \"fairType\": 3\n            },\n            \"seatLocationPrefs\": [\n              {\n                \"maxFlightDuration\": 1150,\n                \"position\": 0,\n                \"cabin\": 3\n              }\n            ],\n            \"seatAmenityPref\": {\n              \"seatAmenityTypes\": [\n                1,\n                2\n              ]\n            }\n          }\n        }\n      }\n    }\n  ]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "email",
+                "value": "vel-Tatum897@iconiq.com",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "id.id",
+                "value": "c0aade56-af44-46d7-b949-617671e136eb",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"travelers\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "name.first",
+                "value": "test_fname",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "name.middle",
+                "value": "test_mname",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "name.last",
+                "value": "test_lname",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"travelers\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "email",
+                "value": "test@testemail.com",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "id.id",
+                "value": "0",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}
