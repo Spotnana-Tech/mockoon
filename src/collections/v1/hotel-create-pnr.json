@@ -1,0 +1,33 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "post",
+        "endpoint": "v1/hotel-create-pnr",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"pnrNumber\": \"QRXVDM\"\n}",
+            "latency": 0,
+            "statusCode": "200",
+            "label": "",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": []
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

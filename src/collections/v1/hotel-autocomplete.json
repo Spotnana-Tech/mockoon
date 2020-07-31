@@ -1,0 +1,133 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "get",
+        "endpoint": "v1/hotel-autocomplete",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"airports\": [{\n    \"airportName\": \"London Heathrow, England\",\n    \"airportCode\": \"LHR\",\n    \"cityCode\": \"LON\",\n    \"location\": {\n      \"name\": \"London\",\n      \"stateName\": \"\",\n      \"countryName\": \"United Kingdom\",\n      \"countryCode\": \"GB\",\n      \"latlong\": {\n        \"latitude\": 51.469722,\n        \"longitude\": -0.452222\n      }\n    }\n  }],\n  \"locations\": [],\n  \"hotels\": [{\n    \"hotelName\": \"Sheraton Skyline Lhr\",\n    \"hotelCode\": \"100093708\",\n    \"location\": {\n      \"name\": \"London\",\n      \"stateName\": \"\",\n      \"countryName\": \"United Kingdom (the)\",\n      \"countryCode\": \"GB\",\n      \"latlong\": {\n        \"latitude\": 51.49596,\n        \"longitude\": -0.253969\n      }\n    }\n  }, {\n    \"hotelName\": \"LHR Coliseum B\\u0026B\",\n    \"hotelCode\": \"100726082\",\n    \"location\": {\n      \"name\": \"Rome\",\n      \"stateName\": \"\",\n      \"countryName\": \"Italy\",\n      \"countryCode\": \"IT\",\n      \"latlong\": {\n        \"latitude\": 41.88968,\n        \"longitude\": 12.49942\n      }\n    }\n  }, {\n    \"hotelName\": \"Heathrow LHR Apartments\",\n    \"hotelCode\": \"101274392\",\n    \"location\": {\n      \"name\": \"West Drayton\",\n      \"stateName\": \"\",\n      \"countryName\": \"United Kingdom (the)\",\n      \"countryCode\": \"GB\",\n      \"latlong\": {\n        \"latitude\": 51.48248,\n        \"longitude\": -0.44884\n      }\n    }\n  }]\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "LHR",
+                "isRegex": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "San Francisco",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "East London Apartment",
+                "isRegex": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"entry\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "spiderman",
+                "isRegex": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "Eiffel Tower",
+                "isRegex": false
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "source": "mockoon:1.8.0",
+    "data": [
+        {
+            "type": "route",
+            "item": {
+                "uuid": "",
+                "documentation": "",
+                "method": "post",
+                "endpoint": "v1/hotel-price-check",
+                "responses": [
+                    {
+                        "uuid": "",
+                        "body": "{\n  \"bookingKey\": \"c3a9f619-4010-4b5b-ba16-6c37f78b2f4c\"\n}",
+                        "latency": 0,
+                        "statusCode": "200",
+                        "label": "Success",
+                        "headers": [
+                            {
+                                "key": "",
+                                "value": ""
+                            }
+                        ],
+                        "filePath": "",
+                        "sendFileAsBody": false,
+                        "rules": []
+                    }
+                ],
+                "enabled": true
+            }
+        }
+    ]
+}
