@@ -1,0 +1,103 @@
+{
+  "source": "mockoon:1.8.0",
+  "data": [
+    {
+      "type": "route",
+      "item": {
+        "uuid": "",
+        "documentation": "",
+        "method": "post",
+        "endpoint": "v1/traveler/search",
+        "responses": [
+          {
+            "uuid": "",
+            "body": "{\n  \"results\": [{\n    \"id\": {\n      \"userId\": {\n        \"id\": \"5411e650-40fd-4ddd-b5b8-d6c7b32ac3e8\"\n      },\n      \"organizationId\": {\n        \"id\": \"b0114612-5d4c-431c-a361-fcb8ff032459\"\n      }\n    },\n    \"name\": {\n      \"given\": \"Micah\",\n      \"middle\": \"\",\n      \"family1\": \"Schultz\",\n      \"family2\": \"Micah\"\n    },\n    \"email\": \"fakeiconiqcapital-candidate-Suspendisse-Micah142@fakeiconiqcapital-fake.com\"\n  }],\n  \"totalCount\": 0\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "email",
+                "value": "fakeiconiqcapital-candidate-Suspendisse-Micah142@fakeiconiqcapital-fake.com",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"travelers\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "name.first",
+                "value": "test_fname",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "name.middle",
+                "value": "test_mname",
+                "isRegex": false,
+                "andRules": false
+              },
+              {
+                "target": "body",
+                "modifier": "name.last",
+                "value": "test_lname",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
+            "body": "{\n  \"travelers\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "body",
+                "modifier": "email",
+                "value": "test@testemail.com",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          }
+        ],
+        "enabled": true
+      }
+    }
+  ]
+}

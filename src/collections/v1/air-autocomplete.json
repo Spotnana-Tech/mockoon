@@ -78,6 +78,30 @@
           },
           {
             "uuid": "",
+            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"Newark Airport\",\n      \"airportCode\": \"EWR\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New Jersey\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.693056,\n          \"longitude\": -74.168611\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "latency": 50,
+            "statusCode": "200",
+            "label": "Success",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "filePath": "",
+            "sendFileAsBody": false,
+            "rules": [
+              {
+                "target": "query",
+                "modifier": "query",
+                "value": "EWR",
+                "isRegex": false,
+                "andRules": false
+              }
+            ]
+          },
+          {
+            "uuid": "",
             "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"Newark Airport\",\n      \"airportCode\": \"EWR\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New Jersey\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.693056,\n          \"longitude\": -74.168611\n        }\n      }\n    },\n    {\n      \"airportName\": \"J.F. Kennedy, NYC\",\n      \"airportCode\": \"JFK\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.64,\n          \"longitude\": -73.778056\n        }\n      }\n    },\n    {\n      \"airportName\": \"New York City LaGuardia\",\n      \"airportCode\": \"LGA\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.777222,\n          \"longitude\": -73.873889\n        }\n      }\n    },\n    {\n      \"airportName\": \"White Plains\",\n      \"airportCode\": \"HPN\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"Westchester County\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 41.066667,\n          \"longitude\": -73.707778\n        }\n      }\n    },\n    {\n      \"airportName\": \"New York Metropolitan Area\",\n      \"airportCode\": \"NYC\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.720409,\n          \"longitude\": -73.994637\n        }\n      }\n    },\n    {\n      \"airportName\": \"Downtown Manhattan Hlpt NYC\",\n      \"airportCode\": \"JRB\",\n      \"cityCode\": \"JRB\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.704167,\n          \"longitude\": -74.000833\n        }\n      }\n    },\n    {\n      \"airportName\": \"East 34th St. Apt., NYC\",\n      \"airportCode\": \"TSS\",\n      \"cityCode\": \"TSS\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.733333,\n          \"longitude\": -73.6\n        }\n      }\n    },\n    {\n      \"airportName\": \"Port Auth./W. 30th St. NYC\",\n      \"airportCode\": \"JRA\",\n      \"cityCode\": \"JRA\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New York\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.754444,\n          \"longitude\": -74.0075\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
             "latency": 50,
             "statusCode": "200",
@@ -102,7 +126,7 @@
           },
           {
             "uuid": "",
-            "body": "{\n  \"airports\": [\n    {\n      \"airportName\": \"Newark Airport\",\n      \"airportCode\": \"EWR\",\n      \"cityCode\": \"NYC\",\n      \"location\": {\n        \"name\": \"New York\",\n        \"stateName\": \"New Jersey\",\n        \"countryName\": \"United States Of America\",\n        \"countryCode\": \"US\",\n        \"latlong\": {\n          \"latitude\": 40.693056,\n          \"longitude\": -74.168611\n        }\n      }\n    }\n  ],\n  \"locations\": [],\n  \"hotels\": []\n}",
+            "body": "{\n  \"airports\": [{\n    \"airportName\": \"Sydney\",\n    \"airportCode\": \"SYD\",\n    \"cityCode\": \"SYD\",\n    \"location\": {\n      \"name\": \"Sydney\",\n      \"stateName\": \"\",\n      \"countryName\": \"Australia\",\n      \"countryCode\": \"AU\",\n      \"latlong\": {\n        \"latitude\": -33.9475,\n        \"longitude\": 151.175833\n      }\n    }\n  }, {\n    \"airportName\": \"Sydney, Nova Scotia\",\n    \"airportCode\": \"YQY\",\n    \"cityCode\": \"YQY\",\n    \"location\": {\n      \"name\": \"Sydney\",\n      \"stateName\": \"Nova Scotia\",\n      \"countryName\": \"Canada\",\n      \"countryCode\": \"CA\",\n      \"latlong\": {\n        \"latitude\": 46.161389,\n        \"longitude\": -60.048611\n      }\n    }\n  }, {\n    \"airportName\": \"Sydney-Palm Beach\",\n    \"airportCode\": \"LBH\",\n    \"cityCode\": \"SYD\",\n    \"location\": {\n      \"name\": \"Sydney\",\n      \"stateName\": \"NS\",\n      \"countryName\": \"Australia\",\n      \"countryCode\": \"AU\",\n      \"latlong\": {\n        \"latitude\": -33.933333,\n        \"longitude\": 151.166667\n      }\n    }\n  }, {\n    \"airportName\": \"Sydney/Aurose Bay\",\n    \"airportCode\": \"RSE\",\n    \"cityCode\": \"SYD\",\n    \"location\": {\n      \"name\": \"Sydney\",\n      \"stateName\": \"NS\",\n      \"countryName\": \"Australia\",\n      \"countryCode\": \"AU\",\n      \"latlong\": {\n        \"latitude\": -33.983333,\n        \"longitude\": 151.834167\n      }\n    }\n  }, {\n    \"airportName\": \"Bankstown, N.S.W.\",\n    \"airportCode\": \"BWU\",\n    \"cityCode\": \"SYD\",\n    \"location\": {\n      \"name\": \"Sydney\",\n      \"stateName\": \"NS\",\n      \"countryName\": \"Australia\",\n      \"countryCode\": \"AU\",\n      \"latlong\": {\n        \"latitude\": -33.916667,\n        \"longitude\": 150.983333\n      }\n    }\n  }],\n  \"locations\": [],\n  \"hotels\": []\n}",
             "latency": 50,
             "statusCode": "200",
             "label": "Success",
@@ -118,7 +142,7 @@
               {
                 "target": "query",
                 "modifier": "query",
-                "value": "EWR",
+                "value": "SYD",
                 "isRegex": false,
                 "andRules": false
               }

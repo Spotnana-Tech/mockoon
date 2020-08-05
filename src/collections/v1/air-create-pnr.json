@@ -11,7 +11,7 @@
         "responses": [
           {
             "uuid": "",
-            "body": "{\n  \"pnrNumber\": \"WPVNCY\"\n}",
+            "body": "{\n  \"pnrNumber\": \"GMKLBN\"\n}",
             "latency": 50,
             "statusCode": "200",
             "label": "Success",
