@@ -11,7 +11,7 @@
         "responses": [
           {
             "uuid": "",
-            "body": "{\n  \"totalFare\": {\n    \"currencyCode\": \"USD\",\n    \"amount\": 148.1\n  }\n}",
+            "body": "{\n  \"totalFare\": {\n    \"currencyCode\": \"USD\",\n    \"amount\": 3692.45\n  }\n}",
             "latency": 50,
             "statusCode": "200",
             "label": "Success",

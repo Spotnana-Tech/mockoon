@@ -1,0 +1,288 @@
+{
+  "traveler": {
+    "user": {
+      "id": {
+        "id": "5411e650-40fd-4ddd-b5b8-d6c7b32ac3e8"
+      },
+      "email": "Suspendisse@in.com",
+      "status": 0,
+      "name": {
+        "given": "Micah",
+        "middle": "",
+        "family1": "Schultz",
+        "family2": "Micah"
+      },
+      "prefName": "Micah",
+      "gender": 2,
+      "dob": {
+        "iso8601": "1909-10-23"
+      },
+      "addresses": [
+        {
+          "revision": 0,
+          "regionCode": "SV",
+          "languageCode": "",
+          "postalCode": "114 28",
+          "sortingCode": "",
+          "administrativeArea": "SV",
+          "locality": "Stockholm",
+          "sublocality": "",
+          "addressLines": [
+            "KTH Royal Institute of Technology",
+            "Brinellvägen"
+          ],
+          "recipients": [],
+          "organization": ""
+        },
+        {
+          "revision": 0,
+          "regionCode": "UK",
+          "languageCode": "",
+          "postalCode": "SW1A 2AA",
+          "sortingCode": "",
+          "administrativeArea": "",
+          "locality": "Westminster",
+          "sublocality": "",
+          "addressLines": [
+            "10 Downing St"
+          ],
+          "recipients": [],
+          "organization": ""
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "type": 0,
+          "countryCode": 0,
+          "nationalNumber": "0",
+          "extension": "",
+          "italianLeadingZero": false,
+          "numberOfLeadingZeros": 0,
+          "rawInput": "08005863098",
+          "countryCodeSource": 0,
+          "preferredDomesticCarrierCode": ""
+        },
+        {
+          "type": 0,
+          "countryCode": 0,
+          "nationalNumber": "0",
+          "extension": "",
+          "italianLeadingZero": false,
+          "numberOfLeadingZeros": 0,
+          "rawInput": "07437214010",
+          "countryCodeSource": 0,
+          "preferredDomesticCarrierCode": ""
+        }
+      ],
+      "identityDocs": [
+        {
+          "passport": {
+            "type": 1,
+            "name": {
+              "given": "Micah",
+              "middle": "",
+              "family1": "Schultz",
+              "family2": ""
+            },
+            "docId": "V279547",
+            "issuedDate": {
+              "iso8601": "1913-09-25"
+            },
+            "expiryDate": {
+              "iso8601": "2030-05-02"
+            },
+            "birthDate": {
+              "iso8601": "1988-12-01"
+            },
+            "issueCountry": "CH",
+            "nationalityCountry": "DE"
+          }
+        },
+        {
+          "immigrationDoc": {
+            "type": 1,
+            "docId": "RP023026",
+            "issuedDate": {
+              "iso8601": "1946-06-03"
+            },
+            "expiryDate": {
+              "iso8601": "2028-08-04"
+            },
+            "issueCountry": "DE",
+            "nationalityCountry": "IN",
+            "authorizedStayDuration": {
+              "iso8601": "P17Y6M11DT12H44M33S"
+            },
+            "reentryRequirementDuration": {
+              "iso8601": "P13Y3M26DT11H53M47S"
+            }
+          }
+        },
+        {
+          "redressNumber": "1203178686"
+        },
+        {
+          "knownTravelerNumber": "JE514680"
+        }
+      ],
+      "paymentInfos": [
+        {
+          "id": "1",
+          "card": {
+            "type": 1,
+            "company": 2,
+            "name": {
+              "given": "Micah",
+              "middle": "",
+              "family1": "Schultz",
+              "family2": "Micah"
+            },
+            "address": {
+              "revision": 0,
+              "regionCode": "US",
+              "languageCode": "",
+              "postalCode": "94130",
+              "sortingCode": "",
+              "administrativeArea": "CA",
+              "locality": "San Francisco",
+              "sublocality": "",
+              "addressLines": [
+                "Golden Gate Bridge"
+              ],
+              "recipients": [],
+              "organization": ""
+            },
+            "number": "5513507843343503",
+            "cvv": "123",
+            "expiryMonth": 3,
+            "expiryYear": 2023
+          }
+        }
+      ],
+      "emergencyContactInfo": {
+        "name": {
+          "given": "Iona",
+          "middle": "",
+          "family1": "Howe",
+          "family2": ""
+        },
+        "phoneNumber": {
+          "type": 0,
+          "countryCode": 0,
+          "nationalNumber": "0",
+          "extension": "",
+          "italianLeadingZero": false,
+          "numberOfLeadingZeros": 0,
+          "rawInput": "16398219382",
+          "countryCodeSource": 0,
+          "preferredDomesticCarrierCode": ""
+        },
+        "address": {
+          "revision": 0,
+          "regionCode": "SV",
+          "languageCode": "",
+          "postalCode": "114 28",
+          "sortingCode": "",
+          "administrativeArea": "SV",
+          "locality": "Stockholm",
+          "sublocality": "",
+          "addressLines": [
+            "KTH Royal Institute of Technology",
+            "Brinellvägen"
+          ],
+          "recipients": [],
+          "organization": ""
+        },
+        "email": "libero.mauris.aliquam@Crasconvallisconvallis.net"
+      }
+    },
+    "userBusinessInfo": {
+      "id": {
+        "id": "e78da782-9646-42b3-a524-1fc0a34d65bc"
+      },
+      "organizationId": {
+        "id": "b0114612-5d4c-431c-a361-fcb8ff032459"
+      },
+      "email": "fakeiconiqcapital-candidate-Suspendisse-Micah142@fakeiconiqcapital-fake.com",
+      "officeId": {
+        "id": "f4b1634b-944e-4ff4-8eef-aeefbe911404"
+      },
+      "managerId": {
+        "id": "fdcf45dd-d350-4544-9b66-85bbd54002d4"
+      },
+      "costCenter": "DKM Office",
+      "workerTypeCode": "PERMANENT",
+      "assignmentTermCode": "Fulltime",
+      "workLevelCode": "Permanent",
+      "designation": "Candidate",
+      "approvalHierarchy": [
+        {
+          "positionKey": "Approval Manager",
+          "userId": {
+            "id": "fdcf45dd-d350-4544-9b66-85bbd54002d4"
+          }
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "type": 0,
+          "countryCode": 0,
+          "nationalNumber": "0",
+          "extension": "",
+          "italianLeadingZero": false,
+          "numberOfLeadingZeros": 0,
+          "rawInput": "08005863098",
+          "countryCodeSource": 0,
+          "preferredDomesticCarrierCode": ""
+        }
+      ],
+      "employeeId": "fdcf45dd-d350-4544-9b66-85bbd54002d4",
+      "department": {
+        "name": "DKM Office"
+      }
+    },
+    "travelerPersonalInfo": {
+      "paymentPrefs": [
+        {
+          "paymentId": "1",
+          "applicableTo": 1
+        }
+      ],
+      "loyaltyInfos": [],
+      "travelPref": {
+        "airPref": {
+          "homeAirport": "DFW",
+          "airlinePrefs": [
+            {
+              "flightType": 1,
+              "alliance": 3,
+              "airlines": [
+                "DL"
+              ]
+            }
+          ],
+          "farePref": {
+            "fairType": 3
+          },
+          "seatLocationPrefs": [
+            {
+              "maxFlightDuration": 2116,
+              "position": 1,
+              "cabin": 1
+            }
+          ],
+          "seatAmenityPref": {
+            "seatAmenityTypes": [
+              1,
+              2
+            ]
+          },
+          "mealPref": {
+            "meal": 6,
+            "specialMealDescription": ""
+          }
+        }
+      }
+    }
+  }
+}
