@@ -11,7 +11,7 @@
                 "responses": [
                     {
                         "uuid": "",
-                        "body": "{\n  \"bookingKey\": \"c3a9f619-4010-4b5b-ba16-6c37f78b2f4c\"\n}",
+                        "body": "{\n  \"bookingKey\": \"CiQ2NjkyZGVhZS1mYzU5LTRiYzItOTlmYi03ZTY4MjI5Y2IzZWESHQobMjAyMC0wOC0wNVQxODowNTo1Ni41NDQ1NTFa\",\n  \"timeoutSeconds\": 240,\n  \"priceChange\": false,\n  \"price\": {\n    \"base\": {\n      \"currencyCode\": \"GBP\",\n      \"amount\": 223.93\n    },\n    \"tax\": {\n      \"currencyCode\": \"GBP\",\n      \"amount\": 0\n    }\n  }\n}",
                         "latency": 0,
                         "statusCode": "200",
                         "label": "Success",
